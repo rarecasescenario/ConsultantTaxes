@@ -1,4 +1,4 @@
-Tutrial to learn how to use Visual Studio Code with Github
+Tutorial: how to use Visual Studio Code with Github
 ========================================
 
 1. Setup with VSCode
@@ -22,8 +22,8 @@ How to work with Git in VS Code
     git clone https://github.com/rarecasescenario/ConsultantTaxes.git
 
 10. After a project was cloned you can make changes.
-11. After changes you will see how many changes done on the left side of  VS Code
-12. Click + to stage chages for each file on the left file pane
+11. After changes you will see how many changes done on the left side of VS Code
+12. Click + to stage changes for each file on the left file pane
 13. Click on the git icon on top of left pane and than commit with commit message
 14. From ... menu select Push and push your commits to remote repository
 
