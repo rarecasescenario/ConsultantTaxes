@@ -1,4 +1,5 @@
 Tutrial to learn how to use Visual Studio Code with Github
+========================================
 
 1. Setup with VSCode
 
@@ -15,8 +16,8 @@ How to work with Git in VS Code
 4. In VS Code, select File -> Add Folder to Workspace -> Select the newly created directory
 5. In VS Code Ctrl + ~ to create a Terminal 
 6.  Config your local repository
-    git config --global user.name "Rare, Case.Scenario"
-    git config -- global user.email "rare.case.scenario@gmail.com"
+6-1.    git config --global user.name "Rare, Case.Scenario"
+6-2.    git config -- global user.email "rare.case.scenario@gmail.com"
 7. Clone Git repository into your local repository
     git clone https://github.com/rarecasescenario/ConsultantTaxes.git
 
