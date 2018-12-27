@@ -28,3 +28,8 @@ How to work with Git in VS Code
 14. From ... menu select Push and push your commits to remote repository
 
 Done!
+
+Gotcha's
+=============
+If you have a several repositories with different users than use
+Windows -> Control Panel -> User Accounts -> Manage Windows Creadentials and delete all git creadentials that causes Permission access denied error.
