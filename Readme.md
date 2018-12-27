@@ -24,5 +24,6 @@ After a project was cloned you can make changes.
 8. After changes you will see how many changes done on the left side of  VS Code
 8. Click + to stage chages for each file on the left file pane
 9. Click on the git icon on top of left pane and than commit with commit message
+10. From ... menu select Push and push your commits to remote repository
 
 Done!
