@@ -20,10 +20,10 @@ How to work with Git in VS Code
 7. Clone Git repository into your local repository
     git clone https://github.com/rarecasescenario/ConsultantTaxes.git
 
-After a project was cloned you can make changes.
-8. After changes you will see how many changes done on the left side of  VS Code
-8. Click + to stage chages for each file on the left file pane
-9. Click on the git icon on top of left pane and than commit with commit message
-10. From ... menu select Push and push your commits to remote repository
+8. After a project was cloned you can make changes.
+9. After changes you will see how many changes done on the left side of  VS Code
+10. Click + to stage chages for each file on the left file pane
+11. Click on the git icon on top of left pane and than commit with commit message
+12. From ... menu select Push and push your commits to remote repository
 
 Done!
