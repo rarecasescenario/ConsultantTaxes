@@ -8,8 +8,8 @@ git config --global user.email "rare.case.scenario@gmail.com"
 git clone https://github.com/rarecasescenario/ConsultantTaxes.git
 
 
-How to work with Git in VS Code
-========================================
+## How to work with Git in VS Code
+```
 1. Create a directory on the local file system
 2. Create a repo on Github or use existing one
 3. Get a link from Github repository project
@@ -28,6 +28,7 @@ How to work with Git in VS Code
 14. From ... menu select Push and push your commits to remote repository
 
 Done!
+```
 
 Gotcha's
 =============
