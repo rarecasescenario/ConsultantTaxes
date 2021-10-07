@@ -1,20 +1,39 @@
 package org.tutorials.o4;
 
+import java.util.List;
 
 public class Triangle {
 
 
 	private String message = "Tutorial Spring with xml"; 
 	
+	List<Point> points;
+	
 	private Point pointA;
 	private Point pointB;
 	private Point pointC;
 	
 	public void draw() {
-		System.out.println(message);
-        System.out.println(pointA.getX() + "  " + pointA.getY());
-        System.out.println(pointB.getX() + "  " + pointB.getY());
-        System.out.println(pointC.getX() + "  " + pointC.getY());
+		points.stream().forEach(t -> {
+			System.out.println(t.getX());
+			System.out.println(t.getY());
+		});
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public List<Point> getPoints() {
+		return points;
+	}
+
+	public void setPoints(List<Point> points) {
+		this.points = points;
 	}
 
 	public Point getPointA() {
@@ -41,13 +60,5 @@ public class Triangle {
 		this.pointC = pointC;
 	}
 
-	public String getMessage() {
-		return message;
-	}
 
-	public void setMessage(String message) {
-		this.message = message;
-	}
-
-	
 }
