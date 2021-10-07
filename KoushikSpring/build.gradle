@@ -5,7 +5,7 @@ buildscript {
 }
 
 plugins {
-    id 'war'
+    id 'java'
 }
 
 group = 'build'
@@ -27,6 +27,7 @@ dependencies {
 	implementation group: 'org.springframework', name: 'spring-beans', version: '5.3.10'
 	implementation group: 'org.springframework', name: 'spring-expression', version: '5.3.10'
 	implementation group: 'org.springframework', name: 'spring-context', version: '5.3.10'
+	implementation group: 'org.springframework', name: 'spring-aspects', version: '5.3.10'
 	
 	implementation group: 'org.springframework', name: 'spring-jcl', version: '5.3.10'
 
@@ -38,7 +39,9 @@ dependencies {
 
 
 jar {
-	archiveFileName = "koushik-spring.jar"
+    archiveBaseName = "koushik-spring"
+	//archiveFileName = "koushik-spring.jar"
+	archiveVersion = '0.0.1-SNAPSHOT'
 	destinationDirectory = file("${project.rootDir}/KoushikSpring/build/libs")
 	manifest {
 		attributes(

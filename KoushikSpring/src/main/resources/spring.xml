@@ -16,6 +16,7 @@
         
 		<bean id="triangle" class="org.tutorials.o4.Triangle">
 			<property name="message" value="Hello World!" />
+			<property name="type" value="Complex Triangle" />
 		</bean>
 
 	</beans>
