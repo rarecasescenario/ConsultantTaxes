@@ -15,21 +15,15 @@
 		location="classpath*:*.properties" />
 	<context:spring-configured />
 
-	<bean id="triangle" class="org.tutorials.o4.Triangle"
-		name="triangle-tutorial">
-		<property name="points">
-			<list>
-				<ref bean="zeroPoint" />
-				<ref bean="pointB" />
-				<ref bean="pointC" />
-			</list>
-		</property>
-		<property name="message" value="Spring xml configuration..." />
+	<bean id="triangle" class="org.tutorials.o4.Triangle" name="triangle-tutorial" scope="singleton">
+		<property name="pointA" ref="pointA" />
+		<property name="pointB" ref="pointB" />
+		<property name="pointC" ref="pointC" />
 	</bean>
 
-	<bean id="zeroPoint" class="org.tutorials.o4.Point">
-		<property name="x" value="0" />
-		<property name="y" value="0" />
+	<bean id="pointA" class="org.tutorials.o4.Point">
+		<property name="x" value="120" />
+		<property name="y" value="170" />
 	</bean>
 
 	<bean id="pointB" class="org.tutorials.o4.Point">
@@ -41,7 +35,5 @@
 		<property name="x" value="0" />
 		<property name="y" value="20" />
 	</bean>
-
-	<alias name="triangle" alias="triangle-alias" />
 
 </beans>

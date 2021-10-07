@@ -4,20 +4,14 @@ import java.util.List;
 
 public class Triangle {
 
-
 	private String message = "Tutorial Spring with xml"; 
-	
-	List<Point> points;
 	
 	private Point pointA;
 	private Point pointB;
 	private Point pointC;
 	
 	public void draw() {
-		points.stream().forEach(t -> {
-			System.out.println(t.getX());
-			System.out.println(t.getY());
-		});
+		System.out.println(pointA.getX());
 	}
 
 	public String getMessage() {
@@ -26,14 +20,6 @@ public class Triangle {
 
 	public void setMessage(String message) {
 		this.message = message;
-	}
-
-	public List<Point> getPoints() {
-		return points;
-	}
-
-	public void setPoints(List<Point> points) {
-		this.points = points;
 	}
 
 	public Point getPointA() {
