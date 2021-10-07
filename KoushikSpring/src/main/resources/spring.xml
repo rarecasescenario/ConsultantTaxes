@@ -11,12 +11,32 @@
         http://www.springframework.org/schema/context/spring-context.xsd ">
 
 
-		<context:property-placeholder location="classpath*:*.properties" />
-        <context:spring-configured/>
-        
-		<bean id="triangle" class="org.tutorials.o4.Triangle">
-			<property name="message" value="Hello World!" />
-			<property name="type" value="Complex Triangle" />
-		</bean>
+	<context:property-placeholder
+		location="classpath*:*.properties" />
+	<context:spring-configured />
 
-	</beans>
+	<bean id="triangle" class="org.tutorials.o4.Triangle">
+		<property name="pointA" ref="zeroPoint" />
+		<property name="pointB">
+			<bean class="org.tutorials.o4.Point">
+				<property name="x" value="-20" />
+				<property name="y" value="0" />
+			</bean>
+		</property>
+		<property name="pointC">
+			<bean class="org.tutorials.o4.Point">
+				<property name="x" value="0" />
+				<property name="y" value="20" />
+			</bean>
+		</property>
+		<property name="message" value="Spring xml configuration..." />
+	</bean>
+
+	<bean id="zeroPoint" class="org.tutorials.o4.Point">
+		<property name="x" value="0" />
+		<property name="y" value="0" />
+	</bean>
+
+
+
+</beans>
