@@ -39,3 +39,8 @@ Windows -> Control Panel -> User Accounts -> Manage Windows Creadentials and del
 
 
 #Plain Spring Tutorial from koushik
+
+Git rebase
+==========
+git clone -b <branch>
+git checkout <branch>
