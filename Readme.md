@@ -44,3 +44,5 @@ Git rebase
 ==========
 git clone -b <branch>
 git checkout <branch>
+
+We are in master now
