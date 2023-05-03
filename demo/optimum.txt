@@ -1,0 +1,13 @@
+Initial Data
+=============
+1. List of companies
+2. Currnet price of each comapny
+3. Yield Range 
+4. Nearest Ex-Dividend date
+5. Current Positions (from the List in 1)
+6. Current number of shares for each comapany
+
+
+Calculated parameters
+=====================
+1. Current Yield for each company

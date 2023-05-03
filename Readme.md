@@ -45,5 +45,6 @@ Git rebase
 git clone -b <branch>
 git checkout <branch>
 
+We are in master now
 
 optimum changes with dividend increase :)
