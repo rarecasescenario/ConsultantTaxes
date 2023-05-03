@@ -44,3 +44,6 @@ Git rebase
 ==========
 git clone -b <branch>
 git checkout <branch>
+
+
+optimum changes with dividend increase :)
